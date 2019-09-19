@@ -9,25 +9,60 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #f4f5f7;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(64, 61, 221);
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo{
+  width: 5%;
+  margin-left: auto;
+    margin-right: auto;
+}
+.cena1{
+  width: 30%;
+  margin-left: auto;
+    margin-right: auto;
+}
+.cena2{
+  width: 30%;
+  margin-left: auto;
+    margin-right: auto;
+}
+.texto1{
+  width: 50%;
+  margin-left: auto;
+    margin-right: auto;
+}
+.h1{
+  font-family: "Times New Roman", Times, serif; 
+  font-size: 20px;
+  font-weight: bold;
+  font-variant: normal;
+  color: #61dafb ;
+}
+.h2{
+  font-family: "Times New Roman", Times, serif; 
+  font-size: 12px;
+  font-weight: bold;
+  font-variant: normal;
+  color: #1b05df ;
+}
+.pontinhos{
+  width: 70%;
+  margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.cenadiv {
+  width:100%;
 }
