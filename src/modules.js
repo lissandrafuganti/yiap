@@ -9,7 +9,7 @@ class modules extends Component {
   render() {
   return (
     <Container>
-    <Navbar bg="light" expand="lg"  fixed="top">
+      <Navbar bg="light" expand="lg"  fixed="top">
   <Navbar.Brand href="#home"><img className="logo" src={Logo} alt=" imagem"/></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
@@ -19,8 +19,12 @@ class modules extends Component {
       
     
     
-    <Nav.Link eventKey={2} href="<About/>">Yiap</Nav.Link>
-      <Nav.Link href="<modules/>">Módulos</Nav.Link>
+    <Nav.Link eventKey={2} href="about.js">Yiap</Nav.Link>
+      <Nav.Link href="modules.js">Módulos</Nav.Link>
+        
+      </Nav>
+  </Navbar.Collapse>
+</Navbar>
 <br/><br/><br/>
   <Row>
   <Col>
