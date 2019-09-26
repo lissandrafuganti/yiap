@@ -4,9 +4,9 @@ import Logo from './img/logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {Navbar,Nav,Col,Row,Container} from 'react-bootstrap';
-import modules from './modules';
 
-class about extends React.Component {
+
+class about extends Component {
   render() {
   return (
     <Container>

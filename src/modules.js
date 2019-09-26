@@ -4,7 +4,7 @@ import Logo from './img/logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {Navbar,Nav,Col,Row,Container} from 'react-bootstrap';
-import about from './about';
+
 class modules extends Component {
   render() {
   return (
@@ -19,8 +19,8 @@ class modules extends Component {
       
     
     
-    <Nav.Link eventKey={2} href="about.js">Yiap</Nav.Link>
-      <Nav.Link href="modules.js">Módulos</Nav.Link>
+    <Nav.Link eventKey={2} href="/">Yiap</Nav.Link>
+      <Nav.Link href="/">Módulos</Nav.Link>
         
       </Nav>
   </Navbar.Collapse>

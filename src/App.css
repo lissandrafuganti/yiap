@@ -2,46 +2,35 @@
 
 
 
-.App-header {
-  background-color: #f4f5f7;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(64, 61, 221);
-}
+.container{
 
+  
+  width:100%;
+
+ 
+}
 
 
 .logo{
-  width: 5%;
-  margin-left: auto;
-    margin-right: auto;
-}
-.cena1{
-  width: 100%;
-  margin-left: auto;
-    margin-right: auto;
-}
-.cena2{
-  width: 100%;
-  margin-left: auto;
-    margin-right: auto;
+  width: 10%;
+ 
 }
 
-.h1{
-  font-family: "Times New Roman", Times, serif; 
-  font-size: 20px;
-  font-weight: bold;
+
+
+.font1{
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+  font-weight: extra-bold;
   font-variant: normal;
-  color: #61dafb ;
+  color: #3e5fa2 ;
 }
-.h2{
-  font-family: "Times New Roman", Times, serif; 
-  font-size: 12px;
-  font-weight: bold;
+.font2{
+  font-family: 'Vollkorn', serif; 
+  font-size: 40px;
+  font-weight: extra-bold;
   font-variant: normal;
-  color: #1b05df ;
+  color:#3e5fa2;
 }
 .pontinhos{
   width: 70%;
@@ -50,10 +39,32 @@
     
 
 }
-.cenadiv {
-  width:100%;
-  flex-direction: row;
+
+
+.gradiente{
+    width: 100%;
+    background: -webkit-gradient(linear, left top, right top, from(#d4c050), to(#3e5fa2)) no-repeat;
+  
+    background: -moz-linear-gradient(left, #d4c050, #3e5fa2);
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#d4c050', EndColorStr='#3e5fa2');           
+    padding: 0 0;
+
+    margin: 0 0;
+  }
+.parallelogram { 
+  width: 100px; 
+  height: 50px; 
+  -webkit-transform: skew(20deg); 
+  -moz-transform: skew(20deg); 
+  -o-transform: skew(20deg); 
+  background: -moz-linear-gradient(left, #d4c050, #3e5fa2);
 }
-.texto1{
-  width:50%;
+
+
+.cena1{
+  width:100%;
+}
+.cena2{
+  width: 100%;
+
 }
