@@ -20,10 +20,11 @@
 
 .font1{
   font-family: 'Nunito', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: extra-bold;
   font-variant: normal;
   color: #3e5fa2 ;
+  position: fixed;
 }
 .font2{
   font-family: 'Vollkorn', serif; 
@@ -43,10 +44,10 @@
 
 .gradiente{
     width: 100%;
-    background: -webkit-gradient(linear, left top, right top, from(#d4c050), to(#3e5fa2)) no-repeat;
+    background: -webkit-gradient(linear, left top, right top, from(#3e5fa2), to(#d4c050)) no-repeat;
   
-    background: -moz-linear-gradient(left, #d4c050, #3e5fa2);
-    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#d4c050', EndColorStr='#3e5fa2');           
+    background: -moz-linear-gradient(left, #3e5fa2, #d4c050);
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#3e5fa2', EndColorStr='#d4c050');           
     padding: 0 0;
 
     margin: 0 0;
